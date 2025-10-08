@@ -1627,7 +1627,7 @@ run;
 
 options nodate nonumber;
 ods escapechar='^';
-ods rtf file='C:\Users\TMikolaj\OneDrive - Stryker\Documents\table_output.rtf';
+ods rtf file='C:\table_output.rtf';
 %output_table(
   in=demo_patients,
   by=cohort,
@@ -1636,5 +1636,6 @@ ods rtf file='C:\Users\TMikolaj\OneDrive - Stryker\Documents\table_output.rtf';
   pval=1
 );
 ods rtf close;
+
 
 */
